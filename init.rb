@@ -32,7 +32,7 @@ Redmine::Plugin.register :redmine_closed_date do
   name 'Redmine Closed Date'
   author 'Frederic Aoustin'
   description 'The redmine_closed_date: view closed date in view issue.'
-  version '0.1.O'
+  version '0.1.1'
   url 'https://github.com/fraoustin/redmine_closed_date'
   author_url 'https://github.com/fraoustin'
   requires_redmine :version_or_higher => '2.3.0'
