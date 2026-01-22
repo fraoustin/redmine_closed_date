@@ -1,3 +1,3 @@
 <% if issue.closed? %>
-<div style="width: 100%; display: flex;"><div style="width:170px; font-weight: bold;"><%=l(:field_is_closed)%> :</div><div><%= format_date(issue.closed_on) %></div></div>
+    <div class="closed attribute"><div class="label"><%=l(:field_is_closed)%>:</div><div class="value"><%= format_date(issue.closed_on) %></div></div>
 <% end %>
